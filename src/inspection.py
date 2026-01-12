@@ -26,8 +26,8 @@ class VerticalInspector(object):
         # ==================================================================
 
         # ---- MISSION Parameters (Static) ----
-        self.inspection_width = rospy.get_param("~inspection_width", 4.0)
-        self.inspection_depth = rospy.get_param("~inspection_depth", 40.0)
+        self.inspection_width = rospy.get_param("~inspection_width", 10.0)
+        self.inspection_depth = rospy.get_param("~inspection_depth", 15.0)
         self.step_down_z = rospy.get_param("~step_down_z", 2.0)
 
         # Safety Limit
